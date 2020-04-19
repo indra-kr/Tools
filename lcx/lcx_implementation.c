@@ -1,3 +1,6 @@
+/*
+* https://github.com/indra-kr/Tools/blob/master/lcx/lcx_implementation.c
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
