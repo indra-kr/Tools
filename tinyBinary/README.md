@@ -19,7 +19,7 @@ execution of constructor -> | dlopen("evil.so", ...); |
                                                            +---------------------------------+
                                                                             |
                                                                 +-----------------------+ <- main
-                                                                | Tatget's main() logic |
+                                                                | Target's main() logic |
                                                                 |          ...          |
                                                                 +-----------------------+
 ```
