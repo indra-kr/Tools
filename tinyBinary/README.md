@@ -15,7 +15,7 @@ execution of constructor -> | dlopen("evil.so", ...); |
                             |            ...          |    +---------------------------------+ <- .ctors
        execution of main -> |     mprotect(...);      | == |      setgid(0);setuid(0);       |
                             +-------------------------+    | chown("/tmp/.1ndr4-root",0,0);  |
-                                                           | chmod("/tmp/.1ndr4-root",04777);|
+                                                           | chmod("/tmp/.1ndr4-root",06777);|
                                                            +---------------------------------+
                                                                             |
                                                                 +-----------------------+ <- main
