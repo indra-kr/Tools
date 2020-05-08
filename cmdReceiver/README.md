@@ -9,11 +9,11 @@
 이 프로그램에 setuid bit를 설정하도록 exploit하여, 타 권한의 명령어 실행 결과를 웹쉘로 출력할 수 있습니다.  
 <details>
 <summary>JP</summary>
-たまにはPen-Testの中で困りことに出会う事かあります。
+たまにはPen-Testの中で困りことに出会う事かあります。<BR>
 例えば外部に出られるポートーが全部ブロークされて、Webshellしか利用できない環境。
 その環境で使える方法です。<BR>
 あるコマンドを実行できるし、Privilige Escalation脆弱性か存在する場合、<BR>
-グラムにターゲットの権限のSetuidビートを設定するように攻撃したらその権限でコマンドを実行できます。<BR>
+このプログラムにターゲットの権限のSetuidビートを設定するように攻撃したらその権限でコマンドを実行できます。<BR>
 </details>
 <details>
 <summary>EN</summary>
