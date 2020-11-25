@@ -1,3 +1,10 @@
+/*
+* so.i386.s
+*
+* Coded by 1ndr4 (indra.kr@gmail.com)
+* https://github.com/indra-kr/Tools/blob/master/tinyBinary/i386/so.i386.s
+*/
+
 	.text
 .globl _init 
 	.type _init, @function

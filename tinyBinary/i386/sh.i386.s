@@ -1,3 +1,10 @@
+/*
+* sh.i386.s
+*
+* Coded by 1ndr4 (indra.kr@gmail.com)
+* https://github.com/indra-kr/Tools/blob/master/tinyBinary/i386/sh.i386.s
+*/
+
 .globl _start
 _start:
 	/* setgid(0) */

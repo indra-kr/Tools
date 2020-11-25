@@ -1,3 +1,10 @@
+/*
+* sh.x64.s
+*
+* Coded by 1ndr4 (indra.kr@gmail.com)
+* https://github.com/indra-kr/Tools/blob/master/tinyBinary/x86_64/sh.x64.s
+*/
+
 .globl _start
 _start:
         /* setgid(0) */
